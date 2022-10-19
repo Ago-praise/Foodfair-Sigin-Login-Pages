@@ -2,22 +2,25 @@
 import './App.css';
 
 //fonts
-import "./fonts/Roboto-Thin.ttf";
-import "./fonts/Roboto-Regular.ttf"
-import "./fonts/Roboto-Medium.ttf"
-import "./fonts/Roboto-Light.ttf"
-import "./fonts/Roboto-Bold.ttf"
-import "./fonts/Roboto-Black.ttf"
+import "./fonts/OpenSans-Light.ttf";
+import "./fonts/OpenSans-Regular.ttf"
+import "./fonts/OpenSans-Medium.ttf"
+import "./fonts/OpenSans-SemiBold.ttf"
+import "./fonts/OpenSans-Bold.ttf"
+import "./fonts/OpenSans-ExtraBold.ttf"
 
-import Signup from './components/Signup';
+
 import Login from './components/Login';
+import Signup from './components/Signup';
+
 
 
 function App() {
   return (
     <div>
-    <Signup />
     <Login />
+    <Signup />
+   
     </div>
   );
 }

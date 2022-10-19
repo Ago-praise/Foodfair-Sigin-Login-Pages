@@ -3,36 +3,32 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Roboto-Thin";
-  src: local('Roboto-Thin'), 
-  url("./fonts/Roboto-Thin.ttf") format("truetype");
+  font-family: "OpenSans-Light";
+  src: local('OpenSans-Light'), 
+  url("./fonts/OpenSans-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Roboto-Regular";
-  src: local('Roboto-Regular'), 
-  url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-family: "OpenSans-Regular";
+  src: local('OpenSans-Regular'), 
+  url("./fonts/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Roboto-Medium";
-  src: local('Roboto-Medium'), 
-  url("./fonts/Roboto-Medium.ttf") format("truetype");
+  font-family: "OpenSans-Medium";
+  src: local('OpenSans-Medium'), 
+  url("./fonts/OpenSans-Medium.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Roboto-Light";
-  src: local('Roboto-Light'), 
-  url("./fonts/Roboto-Light.ttf") format("truetype");
+  font-family: "OpenSans-Bold";
+  src: local('OpenSans-Bold'), 
+  url("./fonts/OpenSans-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Roboto-Bold";
-  src: local('Roboto-Bold'), 
-  url("./fonts/Roboto-Bold.ttf") format("truetype");
+  font-family: "OpenSans-SemiBold";
+  src: local('OpenSans-SemiBold'), 
+  url("./fonts/OpenSans-SemiBold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Roboto-Black";
-  src: local('Roboto-Black'), 
-  url("./fonts/Roboto-Black.ttf") format("truetype");
-}
-
-#checkbox:checked{
-  @apply text-opacity-100
+  font-family: "OpenSans-ExtraBold";
+  src: local('OpenSans-ExtraBold'), 
+  url("./fonts/OpenSans-ExtraBold.ttf") format("truetype");
 }
